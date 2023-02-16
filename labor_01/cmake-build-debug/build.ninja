@@ -73,6 +73,12 @@ build CMakeFiles/labor_01.dir/Array.cpp.obj: CXX_COMPILER__labor_01_Debug D$:/SA
   OBJECT_DIR = CMakeFiles\labor_01.dir
   OBJECT_FILE_DIR = CMakeFiles\labor_01.dir
 
+build CMakeFiles/labor_01.dir/Matrix.cpp.obj: CXX_COMPILER__labor_01_Debug D$:/SAPI/III/Adatszerkezetek$ és$ algoritmusok/labor_01/Matrix.cpp || cmake_object_order_depends_target_labor_01
+  DEP_FILE = CMakeFiles\labor_01.dir\Matrix.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\labor_01.dir
+  OBJECT_FILE_DIR = CMakeFiles\labor_01.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target labor_01
@@ -81,7 +87,7 @@ build CMakeFiles/labor_01.dir/Array.cpp.obj: CXX_COMPILER__labor_01_Debug D$:/SA
 #############################################
 # Link the executable labor_01.exe
 
-build labor_01.exe: CXX_EXECUTABLE_LINKER__labor_01_Debug CMakeFiles/labor_01.dir/main.cpp.obj CMakeFiles/labor_01.dir/Array.cpp.obj
+build labor_01.exe: CXX_EXECUTABLE_LINKER__labor_01_Debug CMakeFiles/labor_01.dir/main.cpp.obj CMakeFiles/labor_01.dir/Array.cpp.obj CMakeFiles/labor_01.dir/Matrix.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\labor_01.dir

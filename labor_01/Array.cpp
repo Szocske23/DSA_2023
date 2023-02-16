@@ -35,3 +35,15 @@ void printReverseArray(int *array, int numberOfElements) {
     }
     cout<<endl;
 }
+
+void printArrayToFile(int *array, int numberOfElements, char *destination) {
+    ofstream g(destination);
+    for (int i = 0; i < numberOfElements; ++i) {
+        g<<array[i]<<" ";
+    }
+    g<<endl;
+}
+
+void sortArray(int *array, int numberOfElements) {
+
+}
