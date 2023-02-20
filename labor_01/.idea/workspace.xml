@@ -15,23 +15,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cf4229a-e757-4e96-a6ae-3237445a8982" name="Changes" comment="labor_01">
-      <change afterPath="$PROJECT_DIR$/Matrix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matrix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/.idea/labor_02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b7bb72acaaec8e256838.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-df45da1062b4cd30a477.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-bd82db68500e386b4fcc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/.cmake/api/v1/reply/index-2023-02-20T07-07-41-0942.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/.cmake/api/v1/reply/target-labor_02-Debug-f31b71f88f303a304814.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-40a45361301b1337b711.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/labor_02.dir/Matrix.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/labor_02.dir/function.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/labor_02.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/be.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/cmake-build-debug/kiellista.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/function.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/function.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labor_02/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array.h" beforeDir="false" afterPath="$PROJECT_DIR$/Array.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-01c72ff7994f15a0cdaf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-02-16T08-31-48-0686.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-labor_01-Debug-2898622e907b14820130.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/labor_01.dir/Array.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/labor_01.dir/Array.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/labor_01.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/labor_01.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/labor_01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/labor_01.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +114,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="labor_01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labor_01" TARGET_NAME="labor_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labor_01" RUN_TARGET_NAME="labor_01">
@@ -101,7 +133,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676535900031</updated>
-      <workItem from="1676535903257" duration="4402000" />
+      <workItem from="1676535903257" duration="4570000" />
+      <workItem from="1676873543142" duration="2219000" />
     </task>
     <task id="LOCAL-00001" summary="labor_01">
       <created>1676535984283</created>
@@ -124,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676538580262</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="labor_01">
+      <created>1676540452652</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676540452652</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
