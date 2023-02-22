@@ -2,8 +2,8 @@
 // Created by tivad on 2023. 02. 20..
 //
 
-#ifndef LABOR_02_FUNCTION_H
-#define LABOR_02_FUNCTION_H
+#ifndef LABOR_02_IRANYITATLAN_H
+#define LABOR_02_IRANYITATLAN_H
 
 using namespace std;
 #include <iostream>
@@ -22,7 +22,7 @@ typedef struct EDGE{
 vector<EDGE> edgeListFromFile(char*input);
 void printEdgeList(vector<EDGE> Edges,const char *output);
 //adjacency matrix
-int **initializeAdjacencyMatrix(int numberOfRows, int numberOfColumns);
+int **initializeAdjacencyMatrix(int numberOfRows);
 void readAdjacencyMatrix(int **&matrix, int & numberOfRows, char *input);
 void printAdjacencyMatrix(int **matrix, int numberOfRows,char *output);
 ///neighborhood list
@@ -30,4 +30,4 @@ vector<POINT> neighborhoodListFromFile(char*input);
 ///print neighborhood list
 void printNeighborhoodList(vector<POINT> Points,char*output);
 
-#endif //LABOR_02_FUNCTION_H
+#endif //LABOR_02_IRANYITATLAN_H

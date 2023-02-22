@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "function.h"
+#include "iranyitatlan.h"
 
 using namespace std;
 

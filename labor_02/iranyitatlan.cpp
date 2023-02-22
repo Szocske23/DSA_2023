@@ -3,7 +3,7 @@
 //
 
 #include <iomanip>
-#include "function.h"
+#include "iranyitatlan.h"
 
 vector <EDGE> edgeListFromFile(char *input) {
     ifstream f(input);
@@ -103,6 +103,7 @@ vector <POINT> neighborhoodListFromFile(char *input) {
     f>>nPontok>>nElek;
     for (int i = 0; i < nPontok; ++i) {
         f>>p1>>p2;
+        cout<<p1<<" "<<p2<<endl;
         pontok[p1].neighbors.push_back(p2);
         pontok[p2].neighbors.push_back(p1);
     }
