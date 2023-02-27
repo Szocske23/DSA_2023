@@ -15,7 +15,7 @@ void palindromicPartitions(string str);
 bool isPalindrome(int n);
 ///Print all possible strings of length k that can be formed from a set of n characters
 void printer(string n, int k);
-///Recursive Implementation of atoi()
+///Recursive Implementation of atoi
 void myAtoi();
 ///Find all even length binary sequences with same sum of first and second half bits
 ///Print all possible expressions that evaluate to a target
