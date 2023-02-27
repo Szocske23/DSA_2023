@@ -36,7 +36,7 @@ vector <POINT> neighborhoodListFromFileIranyitott(char *input) {
     for (int i = 0; i < nPontok; ++i) {
         f>>p1>>p2;
         cout<<p1<<" "<<p2<<endl;
-        pontok[p1].neighbors.push_back(p2);
+        pontok[p1-1].neighbors.push_back(p2-1);
     }
     return pontok;
 }

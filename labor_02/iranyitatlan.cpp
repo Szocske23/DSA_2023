@@ -98,19 +98,19 @@ vector <POINT> neighborhoodListFromFile(char *input) {
         exit(1);
     }
     POINT szomszedok;
-    vector<POINT> pontok;
     int nElek, nPontok, p1, p2;
     f>>nPontok>>nElek;
+    vector<POINT> pontok(nPontok);
     for (int i = 0; i < nPontok; ++i) {
         f>>p1>>p2;
-        cout<<p1<<" "<<p2<<endl;
-        pontok[p1].neighbors.push_back(p2);
-        pontok[p2].neighbors.push_back(p1);
+        pontok[p1-1].neighbors.push_back(p2);
+        pontok[p2-1].neighbors.push_back(p1);
     }
     return pontok;
 }
 
 void printNeighborhoodList(vector <POINT> Points, char *output) {
+    ifstream f(output);
     for (int i = 0; i < Points.size(); ++i) {
         cout<<i<<" ";
     }
