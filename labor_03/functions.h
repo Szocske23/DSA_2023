@@ -64,7 +64,7 @@ int recLCM2(int a, int b);
 * @param n number of array
 * @param f input file
 */
-void recReadArray(int *a, int n,ifstream *f);
+void recReadArray(int *a, int n, ifstream &f);
 /**
 *
 * @param a array

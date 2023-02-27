@@ -61,6 +61,12 @@ build CMakeFiles/labor_03.dir/functions.cpp.obj: CXX_COMPILER__labor_03_Debug D$
   OBJECT_DIR = CMakeFiles\labor_03.dir
   OBJECT_FILE_DIR = CMakeFiles\labor_03.dir
 
+build CMakeFiles/labor_03.dir/extra.cpp.obj: CXX_COMPILER__labor_03_Debug D$:/SAPI/III/Adatszerkezetek$ es$ algoritmusok/labor_03/extra.cpp || cmake_object_order_depends_target_labor_03
+  DEP_FILE = CMakeFiles\labor_03.dir\extra.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\labor_03.dir
+  OBJECT_FILE_DIR = CMakeFiles\labor_03.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target labor_03
@@ -69,7 +75,7 @@ build CMakeFiles/labor_03.dir/functions.cpp.obj: CXX_COMPILER__labor_03_Debug D$
 #############################################
 # Link the executable labor_03.exe
 
-build labor_03.exe: CXX_EXECUTABLE_LINKER__labor_03_Debug CMakeFiles/labor_03.dir/main.cpp.obj CMakeFiles/labor_03.dir/functions.cpp.obj
+build labor_03.exe: CXX_EXECUTABLE_LINKER__labor_03_Debug CMakeFiles/labor_03.dir/main.cpp.obj CMakeFiles/labor_03.dir/functions.cpp.obj CMakeFiles/labor_03.dir/extra.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\labor_03.dir

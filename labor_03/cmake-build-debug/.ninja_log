@@ -1,6 +1,4 @@
 # ninja log v5
-12	967	6991859238560121	CMakeFiles/labor_03.dir/functions.cpp.obj	c4c49300ebcf7734
-3	658	6991859642376616	CMakeFiles/labor_03.dir/main.cpp.obj	fe83bde7413801a3
-658	767	6991859643316233	labor_03.exe	9471b9318f51cc6
-4	679	6991873212912118	CMakeFiles/labor_03.dir/functions.cpp.obj	c4c49300ebcf7734
-680	803	6991873214162277	labor_03.exe	9471b9318f51cc6
+10	801	6992376894369305	CMakeFiles/labor_03.dir/functions.cpp.obj	c4c49300ebcf7734
+5	798	6992376894369305	CMakeFiles/labor_03.dir/main.cpp.obj	fe83bde7413801a3
+801	914	6992376895476894	labor_03.exe	9471b9318f51cc6

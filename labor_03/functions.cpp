@@ -66,28 +66,44 @@ int recLCM2(int a, int b) {
 }
 
 void recReadArray(int *a, int n, ifstream &f) {
-    if(n >= 0) {
+    if(n > 0) {
         recReadArray(a,n-1,f);
         f>>a[n];
     }
 }
 
 void recPrintArray(int *a, int n) {
-
+    if(n > 0) {
+        recPrintArray(a,n-1);
+        cout<<a[n]<<" ";
+    }
 }
 
 int sumOddElementsOfArray(int *a, int n) {
-    return 0;
+    if(n==0)
+        return 0;
+    else
+        if(a[n]%2==1) return a[n] + sumOddElementsOfArray(a,n-1);
+        else return sumOddElementsOfArray(a,n-1);
 }
 
 void printDigitsOfNumber(int n) {
-
+    if(n != 0) {
+        printDigitsOfNumber(n / 10);
+        cout << n % 10 << " ";
+    }
 }
 
 void printDigitsOfNumberReverse(int n) {
-
+    if(n != 0) {
+        cout << n % 10 << " ";
+        printDigitsOfNumberReverse(n / 10);
+    }
 }
 
 float averageDigitsOfNumber(int n, int numberOfDigits, int sum) {
-    return 0;
+    if(n == 0)
+        return float(sum)/float(numberOfDigits);
+    else
+        averageDigitsOfNumber(n/10,numberOfDigits+1,sum+n%10);
 }
