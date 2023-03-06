@@ -1,0 +1,3 @@
+D:/SAPI/III/Adatszerkezetek es algoritmusok/labor_04/cmake-build-debug/CMakeFiles/labor_04.dir
+D:/SAPI/III/Adatszerkezetek es algoritmusok/labor_04/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/SAPI/III/Adatszerkezetek es algoritmusok/labor_04/cmake-build-debug/CMakeFiles/rebuild_cache.dir
