@@ -5,19 +5,50 @@
 #include "functions.h"
 
 int max(int *arr, int start, int end) {
-    return 0;
+    if (start == end) {
+        return arr[start];
+    } else {
+        int mid = (start + end) / 2;
+        int left_max = max(arr, start, mid);
+        int right_max = max(arr, mid + 1, end);
+        return (left_max > right_max ? left_max : right_max);
+    }
 }
 
 int sum(int *arr, int start, int end) {
-    return 0;
+    if (start == end) {
+        return arr[start];
+    } else {
+        int mid = (start + end) / 2;
+        int left_sum = sum(arr, start, mid);
+        int right_sum = sum(arr, mid + 1, end);
+        return left_sum + right_sum;
+    }
 }
 
 int binary_search(int *arr, int start, int end, int x) {
-    return 0;
+    if (start > end) {
+        return -1; // az elem nem található a tömbben
+    } else {
+        int mid = (start + end) / 2;
+        if (arr[mid] == x) {
+            return mid; // az elem megtalálva
+        } else if (arr[mid] > x) {
+            return binary_search(arr, start, mid - 1, x); // bal oldali résztömb keresése
+        } else {
+            return binary_search(arr, mid + 1, end, x); // jobb oldali résztömb keresése
+        }
+    }
 }
 
 void hanoi(int n, char source, char dest, char aux) {
-
+    if (n == 1) {
+        cout<<"Move disk "<<n<<" from "<<source<<" to "<<dest<<endl;
+    } else {
+        hanoi(n-1, source, aux, dest);
+        cout<<"Move disk "<<n<<" from "<<source<<" to "<<dest<<endl;
+        hanoi(n-1, aux, source, dest);
+    }
 }
 
 // Két L és R tömb összefésülése az arr tömbbe
